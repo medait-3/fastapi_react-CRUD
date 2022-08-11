@@ -1,0 +1,12 @@
+1. Install python
+2. Install mongodb community server
+pip install pymongo fastapi uvicorn
+. Create index.py at root of project
+. Write code in index.py for creating a FastAPI app
+.  to run server in auto-relaod mode
+uvicorn index:app --reload
+. Go to browser and hit below url to access the default FastAPI swagger page
+http://127.0.0.1:8000/docs
+. Create database.py file inside config folder and write code for DB connection
+http://127.0.0.1:8000/docs
+. Enable CORS(Cross Origin Resource Sharing) in index.py file
